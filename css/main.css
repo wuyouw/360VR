@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, img, h1, h2, h3, p, a, ul, li, div, section {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans, arial, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav {
+  height: 90px;
+  padding: 0 20px;
+}
+
+nav img {
+  height: 40px;
+  padding: 25px 20px 15px 20px;
+}
+
+nav ul{
+  position: relative;
+  float: right;
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+nav ul li {
+  color: #4F4F4F;
+  position: relative;
+  float: left;
+  padding-right: 3em;
+  padding-top: 40px;
+}
+
+li a:focus, li a:hover {
+  transition-duration: 500ms;
+  color: #2FB99E;
+}
+
+.entranceVR {
+  height: 500px;
+  width: 100%;
+  background-image: url("../assets/LandingEntrance.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:
+}
+
+.ampVR {
+  height: 500px;
+  width: 100%;
+  background-image: url("../assets/LandingAmphitheater.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.entranceVR img, .ampVR img {
+  width: 100%;
+  position: relative;
+}
+
+.imgTxtLeft {
+  position: relative;
+  float: left;
+  text-align: center;
+  transform: translate(180px, 200px);
+}
+
+.imgTxtRight {
+  position: relative;
+  float: right;
+  text-align: center;
+  transform: translate(-100px, 200px);
+}
+
+.imgTxtLeft h1, .imgTxtRight h1 {
+  color: white;
+  letter-spacing: 15px;
+  padding-bottom: 20px;
+}
+
+.imgTxtLeft a, .imgTxtRight a {
+  border: none;
+  color: #2FB99E;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #D9FFF8;
+}
+
+.imgTxtLeft a:hover, .imgTxtRight a:hover {
+  transition-duration: 500ms;
+  font-size: 1.02rem;
+  background-color: #fff;
+  color: #2BAA91;
+}
+
+footer {
+  position: relative;
+  height: 20px;
+  padding: 30px 40px;
+  background-color: white;
+}
+
+footer img {
+  float: right;
+  height: 15px;
+}
+
+footer ul li{
+  display: inline-block;
+  padding-right: 3rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #D8D8D8;
+}
+
+footer a:hover {
+    transition-duration: 500ms;
+}
+
+.panorama {
+  height: 600px;
+}
+
+.bar {
+  background-image: linear-gradient(to right, rgba(47, 185, 158, .9), rgba(101, 212, 207, .9));
+}
+
+.bar p {
+  font-size: 0.6rem;
+  line-height: 20px;
+  color: white;
+  padding-left: 40px;
+}
